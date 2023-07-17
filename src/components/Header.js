@@ -1,39 +1,43 @@
-import React, { useState } from 'react';
-import { AppBar, Toolbar, Button, Typography } from '@mui/material';
+import React from 'react';
+import { AppBar, Toolbar, Button, Typography } from '@material-ui/core';
 
 
-export const Header= () => {
-    const [section, setSection] = useState('about');
+export const Header= ({ setSection }) => {
 
+
+    const handleSectionClick = (option) => {
+        setSection(option);
+    }
     return (
         <div>
             <AppBar>
                 <Toolbar>
-                    <Typography variant="h1"> 
-                        Phuong To 
+                    <Typography variant="h2"> 
+                        Phuong To   
                     </Typography>
                     <Button 
+                        
                         onClick={() => {
-                            setSection('about')
+                            handleSectionClick('about')
                         }} 
                     >About Me</Button>
                     <Button
                         onClick={() => {
-                            setSection('portfolio')
+                            handleSectionClick('portfolio')
                         }}
                     >Portfolio</Button>
                     <Button
                         onClick={() => {
-                            setSection('contact')
+                            handleSectionClick('contact')
                         }}
                     >Contact</Button>
                     <Button
                         onClick={() => {
-                            setSection('resume')
+                            handleSectionClick('resume')
                         }}
                     >Resume</Button>
                 </Toolbar>
             </AppBar>
         </div>
     )
-}
+};

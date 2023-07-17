@@ -6,8 +6,10 @@ function App() {
 
   return (
     <div>
-      <Header/>
-      <Navigation/>
+      <Header setSection={setSection}/>
+      <div style={{ marginTop: '100px', marginBottom: '100px'}}>
+        <Navigation section={section} />
+      </div>
       <Footer/>
     </div>
     

@@ -17,17 +17,17 @@ export const Footer = () => {
                 >
                     <Grid item xs={4}>
                         <Link href='https://github.com/phuongtoVN'>
-                            <img src='../../public/github.png' alt='Github logi'/>
+                            <img src={`${process.env.PUBLIC_URL}/github.png`} alt='Github logi'/>
                         </Link>
                     </Grid>
                     <Grid item xs={4}>
                         <Link href='https://www.linkedin.com/in/phuong-to-b83535214/'>
-                            <img src='../../public/linkedin.png' alt='Linkedin'/>
+                            <img src= {`${process.env.PUBLIC_URL}/linkedin.png`} alt='Linkedin'/>
                         </Link>
                     </Grid>
                     <Grid item xs={4}>
                         <Link href='https://twitter.com/PhuongTo597601'>
-                            <img src='../../public/Twitter.png' alt='Twitter'/>
+                            <img src={`${process.env.PUBLIC_URL}/Twitter.png`} alt='Twitter'/>
                         </Link>
                     </Grid>
                 </Grid>
