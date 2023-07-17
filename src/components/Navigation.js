@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Button, Typography, TextField } from '@material-ui/core';
 
 import Project from './Project';
-import Header from './Header';
+
 const AboutSection = () => {
   return (
     <div>

@@ -11,8 +11,7 @@ function App() {
         <Navigation section={section} />
       </div>
       <Footer/>
-    </div>
-    
+    </div> 
   );
 }
 
