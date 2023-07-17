@@ -53,7 +53,7 @@ npm install
 ```
 
 ## Usage 
-o run the portfolio locally, use the following command:
+to run the portfolio locally, use the following command:
 
 ```bash
 npm start
@@ -61,9 +61,9 @@ npm start
 This will start the development server, and the portfolio will be accessible at http://localhost:3000 in your web browser.
 
 ## Technologies
-React
-Create React App
-Material-UI
+- React
+- Create React App
+- Material-UI
 ## Author
 The portfolio is developed by Phuong.
 
