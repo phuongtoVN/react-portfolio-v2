@@ -7,13 +7,19 @@ const Project = () => {
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     height: '200px', // Set a height for the grid item if needed
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
   };
 const gridContainerStyle = {
   padding: '30px', // Add desired spacing here (e.g., 10px, 20px, etc.)
 };
 const typographyStyle = {
     fontWeight: 'bold',
-    color: 'red',
+    background: 'gray',
+    color:'white',
+    
   };
   return (
     <div>

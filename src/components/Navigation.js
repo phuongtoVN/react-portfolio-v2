@@ -87,34 +87,41 @@ const ContactSection = () => {
 const ResumeSection = () => {
   return (
     <div>
-      
-      <Typography variant='h1'>Phuong To</Typography>
-          <div>
-              <Typography variant='h3'>Education</Typography>
-              <Typography variant='h5'>2022</Typography>
-              <Typography variant='h5'>Associate of Science</Typography>
-              <Typography variant='h3'>Skills</Typography>
-              <Typography variant='h5'>Team-working</Typography>
-              <Typography variant='h5'>Testing and debugging</Typography>
-              <Typography variant='h5'>Problem solving</Typography>
-              <Typography variant='h5'>Time managing</Typography>
-              
-              <Typography variant='h3'>Language</Typography>
-              <Typography variant='h5'>C++</Typography>
-              <Typography variant='h5'>Python</Typography>
-              <Typography variant='h5'>Java</Typography>
-              <Typography variant='h5'>JavaScript</Typography>
-              <Typography variant='h3'>Web Development</Typography>
-              <Typography variant='h5'>HTML</Typography>
-              <Typography variant='h5'>CSS</Typography>
-              <Typography variant='h5'>JavaScript</Typography>
-              <Typography variant='h5'>Front-end frameworks: React</Typography>
-              <Typography variant='h5'>Back-end frameworks: Node.js</Typography>
-              <Typography variant='h3'>Database</Typography>
-              <Typography variant='h5'>MySQL</Typography>
-              <Typography variant='h5'>MongoDB</Typography>
-          </div>
-      
+          <Typography variant='h3'>Education</Typography>
+          <ul>
+            <li><Typography variant='h5'>2022</Typography></li>
+            <Typography variant='h5'>Associate of Science</Typography>
+          </ul>
+          
+          <Typography variant='h3'>Skills</Typography>
+          <ul>
+            <li><Typography variant='h5'>Team-working</Typography></li>
+            <li><Typography variant='h5'>Testing and debugging</Typography></li>
+            <li><Typography variant='h5'>Problem solving</Typography></li>
+            <li><Typography variant='h5'>Time managing</Typography></li>
+          </ul>
+          <Typography variant='h3'>Language</Typography>
+          <ul>
+            <li><Typography variant='h5'>C++</Typography></li>
+            <li><Typography variant='h5'>Python</Typography></li>
+            <li><Typography variant='h5'>Java</Typography></li>
+            <li> <Typography variant='h5'>JavaScript</Typography></li>
+          </ul>
+          
+          <Typography variant='h3'>Web Development</Typography>
+          <ul>
+            <li><Typography variant='h5'>HTML</Typography></li>
+            <li><Typography variant='h5'>CSS</Typography></li>
+            <li><Typography variant='h5'>JavaScript</Typography></li>
+            <li><Typography variant='h5'>Front-end frameworks: React</Typography></li>
+            <li><Typography variant='h5'>Back-end frameworks: Node.js</Typography></li>
+          </ul>
+          
+          <Typography variant='h3'>Database</Typography>
+          <ul>
+            <li><Typography variant='h5'>MySQL</Typography></li>
+            <li><Typography variant='h5'>MongoDB</Typography></li>
+          </ul>
     </div>
   );
 };
